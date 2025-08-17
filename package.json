@@ -1,1 +1,23 @@
-
+{
+  "name": "gcal-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with Google Calendar integration",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "googleapis": "^128.0.0",
+    "open": "^9.1.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "google-calendar",
+    "reminder"
+  ],
+  "author": "",
+  "license": "MIT"
+}
